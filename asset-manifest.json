@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/github.io/orders_and_products/static/css/main.1e8464ce.css",
+    "main.js": "/github.io/orders_and_products/static/js/main.58258e8d.js",
+    "static/js/787.5b035726.chunk.js": "/github.io/orders_and_products/static/js/787.5b035726.chunk.js",
+    "static/media/Avatar.jpg": "/github.io/orders_and_products/static/media/Avatar.cfe9f79c746ba3002568.jpg",
+    "index.html": "/github.io/orders_and_products/index.html",
+    "main.1e8464ce.css.map": "/github.io/orders_and_products/static/css/main.1e8464ce.css.map",
+    "main.58258e8d.js.map": "/github.io/orders_and_products/static/js/main.58258e8d.js.map",
+    "787.5b035726.chunk.js.map": "/github.io/orders_and_products/static/js/787.5b035726.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e8464ce.css",
+    "static/js/main.58258e8d.js"
+  ]
+}
