@@ -1,0 +1,32 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+}
+
+.Orders {
+    padding: 50px;
+}
+
+.Title {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+
+    min-width: 250px;
+
+    & div {
+        padding-left: 10px;
+    }
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.Filter {
+
+    min-width: 250px;
+}

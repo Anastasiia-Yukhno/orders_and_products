@@ -1,0 +1,63 @@
+.TopMenu {
+    min-height: 10vh;
+    background: #94bd8e;
+
+    box-shadow: 0px 10px 20px 2px #aeaeae;
+
+    &Logo {
+        margin-left: 200px !important;
+        font-size: 25px;
+        padding-left: 200px;
+
+        & a {
+            color: #94bd8e;
+        }
+
+        & a:hover {
+            color: #6a8366;
+        }
+
+        & svg {
+            fill: #94bd8e;
+            padding-right: 5px;
+        }
+
+        & svg:hover {
+            fill: #6a8366;
+        }
+    }
+
+    &Info {
+        flex-direction: row;
+        justify-items: baseline;
+    }
+}
+
+.Block {
+
+    &Day {
+        padding: 15px;
+        font-weight: 600;
+        color: #434f42;
+    }
+
+    &Time {
+        display: flex;
+        padding: 15px;
+        align-self: flex-end;
+        align-items: center;
+        color: #434f42;
+
+        & svg {
+            padding-right: 5px;
+            color: #434f42;
+        }
+    }
+
+    &ActiveSessions {
+        padding: 15px;
+        display: flex;
+        align-self: flex-end;
+        color: #434f42;
+    }
+}

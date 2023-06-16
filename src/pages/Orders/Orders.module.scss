@@ -1,0 +1,21 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+}
+
+.Orders {
+    padding: 50px;
+}
+
+.Title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 20px;
+}
+
+.AddNew {
+    padding-right: 10px;
+}
