@@ -1,7 +1,7 @@
 {
   "name": "orders_and_products",
   "version": "0.1.0",
-  "homepage": "http://Anastasiia-Yukhno/github.io/orders_and_products",
+  "homepage": "http://Anastasiia-Yukhno.github.io/orders_and_products",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
