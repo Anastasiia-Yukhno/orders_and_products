@@ -1,6 +1,7 @@
 {
   "name": "orders_and_products",
   "version": "0.1.0",
+  "homepage": "http://Anastasiia-Yukhno/github.io/orders_and_products",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
@@ -31,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -55,6 +58,7 @@
     "@types/react-redux": "^7.1.25",
     "@types/redux": "^3.6.0",
     "@types/redux-thunk": "^2.1.0",
+    "gh-pages": "^5.0.0",
     "nodemon": "^2.0.22",
     "sass": "^1.62.1"
   }
