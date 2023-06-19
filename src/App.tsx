@@ -18,7 +18,7 @@ function App() {
   return (
     <Provider store={store}>
       <Routes>
-        <Route path={"/"} element={<Orders />} />
+        <Route path={"/orders_and_products"} element={<Orders />} />
         <Route path={"/orders"} element={<Orders />} />
         <Route path={"/groups"} element={<Products />} />
         <Route path={"/products"} element={<Products />} />
