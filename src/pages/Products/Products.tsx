@@ -41,7 +41,9 @@ const Products = () => {
 
           <div className={styles.OrdersList}>
             {orders.map((order) => {
-              return <ProductsList order={order} filter={filter} />;
+              return (
+                <ProductsList order={order} filter={filter} key={order.id} />
+              );
             })}
           </div>
         </div>
